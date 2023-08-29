@@ -46,7 +46,7 @@ func main() {
 			}
 
 			// render partial view
-			return c.Render("results", fiber.Map{
+			return c.Render("partials/results", fiber.Map{
 				"Ticker":  ticker,
 				"Results": results,
 			})
@@ -68,7 +68,7 @@ func main() {
 		ticker := c.Params("ticker")
 		values := GetDailyValues(ticker)
 
-		return c.Render("values", fiber.Map{
+		return c.Render("partials/values", fiber.Map{
 			"Ticker": ticker,
 			"Values": values,
 		})
