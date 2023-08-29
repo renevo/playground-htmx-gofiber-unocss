@@ -1,9 +1,9 @@
-# Playground fiber+htmx
+# Playground gofiber+htmx+unocss
 
 This uses the following items from [A very simple tech stack](https://www.youtube.com/watch?v=huMTT5Pb8b8).
 
 * [UnoCSS](https://unocss.dev/)
-* [Fiber](https://github.com/gofiber/fiber)
+* [gofiber](https://github.com/gofiber/fiber)
 * [htmx](https://htmx.org/)
 
 ## Polygon API
@@ -15,6 +15,6 @@ The free tier is limited to 5 requests per minute.
 
 ## Thoughts
 
-It's ugly, but functional, and does what it says on paper. The video missed a lot of things I had to fill the gaps for, but overall, a very simple tech stack. Although, Unocss doesn't look very mature and for people who don't want to build there own entire CSS framework, [Tailwind](https://tailwindcss.com/) might be a better fit.
+It's ugly, but functional, and does what it says on paper. The video missed a lot of things I had to fill the gaps for, but overall, a very simple tech stack. Although, Unocss doesn't look very mature and for people who want to build there own entire CSS framework, [Tailwind](https://tailwindcss.com/) might be a better fit.
 
 Fiber does some templates a bit different when including them [html.Engine](https://docs.gofiber.io/template/html/)
