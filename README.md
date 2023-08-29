@@ -1,4 +1,4 @@
-# Playground gofiber+htmx+unocss
+# Playground
 
 This uses the following items from [A very simple tech stack](https://www.youtube.com/watch?v=huMTT5Pb8b8).
 
